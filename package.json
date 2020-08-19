@@ -1,0 +1,31 @@
+{
+  "name": "confusion",
+  "version": "1.0.0",
+  "description": "This is a site for online art gallery",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onkar26ers/ArtGallery.git"
+  },
+  "author": "Naik Onkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onkar26ers/ArtGallery/issues"
+  },
+  "homepage": "https://github.com/onkar26ers/ArtGallery#readme"
+}
