@@ -1,23 +1,32 @@
 body {
-    padding: 50px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
     z-index: 0
 }
-  
-.navbar-custom{
+
+.navbar-custom {
+    height: 60px;
     background-color: #ffffff;
 }
 
-.navbar-custom .navbar-text{
+.navbar-light .navbar-text a {
     color: white;
-    background-color: #046b2c;
+}
+
+.navbar-light .navbar-text a:hover {
+    color: white;
+}
+
+.navbar-light .navbar-text{
     margin-top: 5px;
     padding: 5px 10px;
+    background-color: #046b2c;
 }
 
 .navbar-custom .navbar-text1 {
     color: #034b1f;
     margin-top: 5px;
     margin-right: 14px;
+    margin-left: 16px;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -43,4 +52,84 @@ body {
       color: floralwhite;
       border: 0px; }
       .modal-content .modal-header .close {
-        color: floralwhite; }
+        color: floralwhite; 
+}
+
+.footer {
+    background-color: #373737;
+    color: #ffffff;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.header {
+   background-image: url(/img/homepage.jpg);
+   height: 430px;
+   width: 100%;
+   
+}
+.header-content {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.row-content {
+    text-align: center;
+    font-size: 14px;
+    color: #969696;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.social {
+    background-color: #046b2c;
+    height: 40px;
+}
+
+.fa-instagram {
+    padding:5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-facebook-square {
+    padding:5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-twitter-square {
+    padding:5px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.row-image {
+    padding-left: 130px;
+}
+
+.img-fluid {
+    padding:5px;
+}
